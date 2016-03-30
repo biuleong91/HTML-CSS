@@ -1,0 +1,54 @@
+
+			body{
+				background-color: #d2b48c;
+				margin-left: 20%;
+				margin-right: 20%;
+				border: 4px dotted black;
+				padding:10px 10px 10px 10px;
+				font-family: sans-serif;
+				font-size: 14px;
+			}
+			h1{
+				/**font-family: "Emblema one", sans-serif;**/
+				font-family: "Poiret One", cursive;
+				font-style: italic;
+				font-size: 280%;
+				font-weight: bolder;
+				color: Indigo;
+				border-bottom: 1px solid black;
+			}
+			h1.EmblemaOne{
+			
+			}
+			h2{
+				color: black;
+				font-style: oblique;
+				font-weight: normal;
+				/**border-bottom: 1px dotted;**/
+
+			}
+			p{
+				color: black;
+				border-bottom: 2px dotted;
+				border-bottom-color: black;
+			}
+			li{
+			text-decoration: underline overline line-through;
+			}
+			a{
+				font-family: serif;
+			}
+			.coffee{		/**Including all of the elements tabbed with coffee class**/
+				color: maroon;
+				border-bottom-color: maroon;
+			}
+			.greentea{
+				color: green;
+				border-bottom-color: green;
+			}
+			blockquote.greentea{			/**more specific**/
+				font-weight: bold;
+			}
+			#Chai{
+				color: green;
+			}
