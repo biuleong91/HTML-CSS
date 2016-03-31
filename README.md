@@ -1,2 +1,2 @@
-Recording my learning exercises of Headfirst HTML-CSS on this repo.
+Recording my learning exercises of Headfirst HTML-CSS in this repo.
 
