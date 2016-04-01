@@ -18,4 +18,16 @@ h2{
 	border-width: 1px;
 	border-style: solid;
 	background-color: #a7cece;
+	background-image: url(images/background.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 25px;
+	padding-left: 80px;
+	margin: 30px;
+	margin-right: 250px;
+	line-height: 1.9em;
+	font-family: Georgia, Times New Roman;
+	font-style: italic;
+	color: #444444;
+	
 }
