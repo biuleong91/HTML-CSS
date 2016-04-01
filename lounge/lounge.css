@@ -29,5 +29,7 @@ h2{
 	font-family: Georgia, Times New Roman;
 	font-style: italic;
 	color: #444444;
+	border-style: dashed;
+	border-color: white;
 	
 }
