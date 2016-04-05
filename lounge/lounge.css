@@ -13,7 +13,7 @@ h1{
 h2{
 	font-size: 120%;
 }
-.guarantee {
+#guarantee {
 	border-color: black;
 	border-width: 1px;
 	border-style: solid;
@@ -31,5 +31,6 @@ h2{
 	color: #444444;
 	border-style: dashed;
 	border-color: white;
-	
+	border-width: 1px;
+	border-radius: 12px;
 }
