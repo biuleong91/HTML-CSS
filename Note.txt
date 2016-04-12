@@ -1,2 +1,15 @@
 1). Jello layout which allows the margins to expand with the auto property value and fixed-size area of content
 with expandable margins.
+
+2).In general, stick to groupingrelated content together with <section>, and for selfcontainedcontent, use <article>. And if you need to group content together that doesn¡¦t feel as related, you always have <div> to fall back on.	P564
+
+
+
+
+
+
+
+
+
+==========
+crystal-clear	P564
