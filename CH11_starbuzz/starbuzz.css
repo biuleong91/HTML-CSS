@@ -11,24 +11,24 @@ body {
   margin:           0px auto; /**centers the division**/
   background-color: #675c47;
 }
-#header {
+header {
   background-color: #675c47;
   margin:           10px;
   height:           108px;
 }
 #award {
-	position:		absolute;
-	top:			30px;
-	left:			45%;
+  position:			absolute;
+  top:				30px;
+  left:				45%;
 }
 #drinks {
-	display: 			table-cell;
-	background-color:	#efe5d0;
-	width:				20%;
-	padding:			15px;
-	vertical-align:		top;
+  display: 			table-cell;
+  background-color:	#efe5d0;
+  width:			20%;
+  padding:			15px;
+  vertical-align:	top;
 }
-#sidebar {
+aside {
   display: 			table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -40,20 +40,18 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  width:			380px;
-  float:			left;
   vertical-align:	top;
 
 }
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           10px;
+  margin:           0px 10px 10px 10px;
   font-size:        90%;
-  clear:			left;
 }
+
 #coupon {
 	position:		fixed;
 	top:			300px;
@@ -65,13 +63,8 @@ body {
 }
 
 div#tableContainer {
-	background-color: 	#B8A886;
-	display: 			table;
-	border-spacing: 	10px;
-	margin:				-10px;
-
-	
-
+  display: 			table;
+  border-spacing: 	10px;
 }
 div#tableRow {
 	display: 			table-row;
