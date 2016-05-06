@@ -3,13 +3,5 @@ with expandable margins.
 
 2).In general, stick to groupingrelated content together with <section>, and for selfcontainedcontent, use <article>. And if you need to group content together that doesn¡¦t feel as related, you always have <div> to fall back on.	P564
 
+3). tr stands for table row; th stands for table heading; td stands for table data	P604
 
-
-
-
-
-
-
-
-==========
-crystal-clear	P564
