@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta charset="utf-8" />
+    <title>CSS Transforms and Transitions</title>
+<style>
+#box {
+position: absolute;
+top: 100px;
+left: 100px;
+width: 200px;
+height: 200px;
+background-color: red;
+
+<!-- delaying the duration of transiting do not work when combining with the duration of change colour lengthened.-->
+transition: transform 2s;
+-webkit-transition: -webkit-transform 2s;
+-moz-transition: -moz-transform 3s;
+-o-transition: -o-transform 2s;
+
+transition: background-color 2s ease-out;
+-webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+}
+#box:hover {
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+background-color: blue;
+}
+</style>
+  </head>
+  <body>
+    <div id="box"></div>
+  </body>
+</html>
