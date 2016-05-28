@@ -1,1 +1,1 @@
-Code for exercises of Headfirst HTML-CSS edited by Biu.
+Code for exercises of Head First HTML-CSS and some of those was edited by Biu.
